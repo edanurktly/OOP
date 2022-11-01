@@ -1,0 +1,14 @@
+﻿calisanlarla ilgili base class yapiniz
+Sekreter, muhasebeci, yazilimci
+
+yonetici olsun. yonetici de performansa gore
+MAAS ve kesinti metodlari olsun
+ 1--maas için eğitim durumu 
+   eğer lise mezunu ise kademe farki olmayacak
+   eğer üniversite  mezunu ise %20 fark
+   eğer yüksek lisans mezunu ise %30 fark 
+   cocuk sayisi * (cocuk basına 300tl fark)
+
+2--gelemediği gün sayisi 3 günden fazla ise gun sayisi *100 tl kesinti uygulanacak
+
+

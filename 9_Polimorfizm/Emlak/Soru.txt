@@ -1,0 +1,9 @@
+﻿-->50 m2 kira ucreti baz :2500
+-->m2 başına 100tl fiyat farki olacak
+-->Eşyalı olduğu zaman 1000tl fark edecek
+-->Site içerisinde  olursa:2000TL Eklenecek
+-->Ara kat(Giris Ustu) olursa kiraya 500 fark eklenecek
+-->Eğer site içerisinde ise aidat eklenecek
+--Kimden kiralık olduğu önemli
+-->Emlakcidan olursa yillik kiranin %10 komisyon eklenecek
+-->2 kira bir depozit hesaba katilacak 
