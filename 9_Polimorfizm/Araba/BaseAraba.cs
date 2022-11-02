@@ -16,15 +16,10 @@ namespace _9_Polimorfizm.Araba
     {
         public string Marka { get; set; }
         public string Seri { get; set; }
-
         public string Model { get; set; }
         public int Yil { get; set; }
         public string Renk { get; set; }
 
-
-
-
-        //ödev notebook modellerini
 
     }
 }
