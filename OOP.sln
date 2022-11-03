@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_eventsurucu", "11_events
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_eventBombaci", "11_eventBombaci\11_eventBombaci.csproj", "{58DD4C1A-B38C-4000-ADD7-432AC34375B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_ArabaKumanda", "11_ArabaKumanda\11_ArabaKumanda.csproj", "{0542D6D1-8B06-42AD-9234-74C4B1AB2383}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_ArabaKumanda", "11_ArabaKumanda\11_ArabaKumanda.csproj", "{0542D6D1-8B06-42AD-9234-74C4B1AB2383}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_SiparisOtomasyonu", "12_SiparisOtomasyonu\12_SiparisOtomasyonu.csproj", "{C63FBA31-206A-40F8-90EA-EBAD7672EA62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{0542D6D1-8B06-42AD-9234-74C4B1AB2383}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0542D6D1-8B06-42AD-9234-74C4B1AB2383}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0542D6D1-8B06-42AD-9234-74C4B1AB2383}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C63FBA31-206A-40F8-90EA-EBAD7672EA62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C63FBA31-206A-40F8-90EA-EBAD7672EA62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C63FBA31-206A-40F8-90EA-EBAD7672EA62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C63FBA31-206A-40F8-90EA-EBAD7672EA62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

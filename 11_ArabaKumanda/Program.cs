@@ -1,4 +1,6 @@
-﻿namespace _11_ArabaKumanda
+﻿using System.Security.Principal;
+
+namespace _11_ArabaKumanda
 {
     internal class Program
     {
@@ -23,8 +25,6 @@
             sahteKumanda.AcmaTusunaBasildi += araba.SinyalAl;
             sahteKumanda.TusaBas();
             kumanda.TusaBas();
-
-
 
 
 
