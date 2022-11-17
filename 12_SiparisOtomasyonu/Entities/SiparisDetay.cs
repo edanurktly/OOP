@@ -8,7 +8,7 @@ namespace _12_SiparisOtomasyonu.Entities
 {
     internal class SiparisDetay
     {
-        public int SiparisNo { get; set; }
+       
         
     }
 }

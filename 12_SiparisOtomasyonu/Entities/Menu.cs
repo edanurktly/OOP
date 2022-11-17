@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _12_SiparisOtomasyonu.Entities
 {
-    internal class Menu
+    public class Menu
     {
 
         public string MenuAdi { get; set; }

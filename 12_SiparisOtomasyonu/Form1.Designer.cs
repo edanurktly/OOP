@@ -52,7 +52,7 @@
             this.menuToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(467, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -68,14 +68,14 @@
             // siparisEkleToolStripMenuItem
             // 
             this.siparisEkleToolStripMenuItem.Name = "siparisEkleToolStripMenuItem";
-            this.siparisEkleToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.siparisEkleToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.siparisEkleToolStripMenuItem.Text = "Siparis Ekle";
             this.siparisEkleToolStripMenuItem.Click += new System.EventHandler(this.siparisEkleToolStripMenuItem_Click);
             // 
             // raporlaToolStripMenuItem
             // 
             this.raporlaToolStripMenuItem.Name = "raporlaToolStripMenuItem";
-            this.raporlaToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.raporlaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.raporlaToolStripMenuItem.Text = "Raporla";
             // 
             // urunlerToolStripMenuItem
@@ -92,27 +92,27 @@
             // urunEkleToolStripMenuItem
             // 
             this.urunEkleToolStripMenuItem.Name = "urunEkleToolStripMenuItem";
-            this.urunEkleToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.urunEkleToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.urunEkleToolStripMenuItem.Text = "Urun Ekle";
             this.urunEkleToolStripMenuItem.Click += new System.EventHandler(this.urunEkleToolStripMenuItem_Click);
             // 
             // urunleriRaporlaToolStripMenuItem
             // 
             this.urunleriRaporlaToolStripMenuItem.Name = "urunleriRaporlaToolStripMenuItem";
-            this.urunleriRaporlaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.urunleriRaporlaToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.urunleriRaporlaToolStripMenuItem.Text = "Urunleri Raporla";
             // 
             // extraEkleToolStripMenuItem
             // 
             this.extraEkleToolStripMenuItem.Name = "extraEkleToolStripMenuItem";
-            this.extraEkleToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.extraEkleToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.extraEkleToolStripMenuItem.Text = "Extra Ekle";
             this.extraEkleToolStripMenuItem.Click += new System.EventHandler(this.extraEkleToolStripMenuItem_Click);
             // 
             // extraRaporlaToolStripMenuItem
             // 
             this.extraRaporlaToolStripMenuItem.Name = "extraRaporlaToolStripMenuItem";
-            this.extraRaporlaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.extraRaporlaToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.extraRaporlaToolStripMenuItem.Text = "Extra Raporla";
             // 
             // menuToolStripMenuItem
@@ -128,27 +128,27 @@
             // menuEkleToolStripMenuItem
             // 
             this.menuEkleToolStripMenuItem.Name = "menuEkleToolStripMenuItem";
-            this.menuEkleToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.menuEkleToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.menuEkleToolStripMenuItem.Text = "Menu Ekle";
             this.menuEkleToolStripMenuItem.Click += new System.EventHandler(this.menuEkleToolStripMenuItem_Click);
             // 
             // menuGuncelleToolStripMenuItem
             // 
             this.menuGuncelleToolStripMenuItem.Name = "menuGuncelleToolStripMenuItem";
-            this.menuGuncelleToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.menuGuncelleToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.menuGuncelleToolStripMenuItem.Text = "Menu Guncelle";
             // 
             // menuleriRaporlaToolStripMenuItem
             // 
             this.menuleriRaporlaToolStripMenuItem.Name = "menuleriRaporlaToolStripMenuItem";
-            this.menuleriRaporlaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.menuleriRaporlaToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.menuleriRaporlaToolStripMenuItem.Text = "Menuleri Raporla";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(467, 373);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;

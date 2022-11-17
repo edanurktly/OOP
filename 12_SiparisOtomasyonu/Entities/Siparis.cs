@@ -17,6 +17,7 @@ namespace _12_SiparisOtomasyonu.Entities
         public decimal ToplamTutar { get; set; }
 
 
+
         public void Hesapla()
         {
             ToplamTutar = 0;
@@ -43,6 +44,27 @@ namespace _12_SiparisOtomasyonu.Entities
             //Kac adet ise toplam tutar onunla carpilir
             ToplamTutar = ToplamTutar * Adet;
 
+        }
+        public override string ToString()
+        {
+            if (Extralar.Count < 1)
+            {
+                return $"{SeciliMenu.MenuAdi} Menu x{Adet} ,{Boyutu.ToString()} ,Toplam {ToplamTutar.ToString("C2")} ";
+            }
+            else
+            {
+                string str = null;
+                string extralar = null;
+                foreach (Extra item in Extralar)
+                {
+                    extralar += item.ExtraAdi + ",";
+                }
+                extralar = extralar.Trim(','); // En sondaki , isaretini silmek icin gerekli 
+
+
+                return $"{SeciliMenu.MenuAdi} Menu x{Adet} ,{Boyutu.ToString()} ,Extralar :{extralar} Toplam {ToplamTutar.ToString("C2")} ";
+
+            }
         }
 
     }

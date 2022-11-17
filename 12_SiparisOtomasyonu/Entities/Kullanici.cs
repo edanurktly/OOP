@@ -8,7 +8,6 @@ namespace _12_SiparisOtomasyonu.Entities
 {
     internal class Kullanici
     {
-        public int KullaniciNo { get; set; }
-        public string AdiSoyadi { get; set; }
+       
     }
 }

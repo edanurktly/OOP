@@ -8,8 +8,6 @@ namespace _12_SiparisOtomasyonu.Entities
 {
     internal class SiparisMaster
     {
-        public DateTime SiparisTarihi { get; set; }
-        public string MusteriNo { get; set; }
-        public List<SiparisDetay> Detaylar { get; set; }
+        
     }
 }
