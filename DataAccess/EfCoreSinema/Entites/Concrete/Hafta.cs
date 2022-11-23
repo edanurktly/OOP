@@ -9,12 +9,11 @@ namespace EfCoreSinema.Entites.Concrete
 {
     public class Hafta:BaseEntity<Guid>
     {
-        public int Id { get; set; }
-        public string Haftalar { get; set; }
-        public DateTime HaftaBaslangicTarihi { get; set; }
-        public DateTime HaftaBitisTarihi { get; set; }
+        public string HaftaAdi { get; set; }
+        public DateTime? HaftaBaslangicTarihi { get; set; }
+        public DateTime? HaftaBitisTarihi { get; set; }
 
-
+        public ICollection<Gosterim>? Gösterimler { get; set; }
 
     }
 }

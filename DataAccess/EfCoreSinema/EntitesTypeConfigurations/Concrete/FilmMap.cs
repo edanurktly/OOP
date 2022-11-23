@@ -16,9 +16,14 @@ namespace EfCoreSinema.EntitesTypeConfigurations.Concrete
         {
             base.Configure(builder);
             builder.Property(p => p.FilmAdi)
-                .HasMaxLength(30);
+                .HasMaxLength(100);
 
-            
+            builder.Property(p => p.Aciklama)
+              .HasMaxLength(500);
+
+
+
+
         }
     }
 }

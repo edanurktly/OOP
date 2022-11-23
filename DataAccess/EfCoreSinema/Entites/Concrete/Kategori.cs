@@ -9,9 +9,10 @@ namespace EfCoreSinema.Entites.Concrete
 {
     public class Kategori:BaseEntity<Guid>
     {
-        public int Id { get; set; }
+    
         public string KategoriAdi { get; set; }
-        public ICollection<Film> Filmler { get; set; }
+        public string? Aciklama { get; set; }
+        public ICollection<Film> ?Filmler { get; set; }
 
     }
 }

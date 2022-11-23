@@ -14,6 +14,9 @@ namespace EfCoreSinema.EntitesTypeConfigurations.Concrete
         public override void Configure(EntityTypeBuilder<Salon> builder)
         {
             base.Configure(builder);
+            builder.Property(p => p.SalonAdi)
+                .HasMaxLength(50);
+
         }
     }
 }

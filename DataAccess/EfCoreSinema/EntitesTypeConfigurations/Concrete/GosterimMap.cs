@@ -14,6 +14,8 @@ namespace EfCoreSinema.EntitesTypeConfigurations.Concrete
         public override void Configure(EntityTypeBuilder<Gosterim> builder)
         {
             base.Configure(builder);
+
+            
         }
     }
 }

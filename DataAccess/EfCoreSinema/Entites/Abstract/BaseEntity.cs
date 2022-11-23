@@ -6,9 +6,15 @@ using System.Threading.Tasks;
 
 namespace EfCoreSinema.Entites.Abstract
 {
+    public enum Status
+    {
+        Active=1,
+        Update=2,
+        Delete
+    }
     public abstract class BaseEntity<T>
     {
-        public int Id { get; set; }
+        public T Id { get; set; }
 
         private DateTime _CreateDate = DateTime.Now;
 
@@ -19,5 +25,14 @@ namespace EfCoreSinema.Entites.Abstract
         }
         public DateTime? UpdateDate { get; set; }
         public DateTime? DeleteDate { get; set; }
+
+        private Status _status=Status.Active;
+
+        public Status Status
+        {
+            get { return _status; }
+            set { _status=value; }
+        }
+
     }
 }

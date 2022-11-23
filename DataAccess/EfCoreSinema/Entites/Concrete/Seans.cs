@@ -9,8 +9,8 @@ namespace EfCoreSinema.Entites.Concrete
 {
     public class Seans:BaseEntity<Guid>
     {
-        public int Id { get; set; }
-        public DateTime Saat { get; set; }
+       public string SeansAdi { get; set; }
 
+        public ICollection<Gosterim>? Gösterimler { get; set; }
     }
 }

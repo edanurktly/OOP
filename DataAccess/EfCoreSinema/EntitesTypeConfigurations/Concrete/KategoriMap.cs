@@ -13,8 +13,14 @@ namespace EfCoreSinema.EntitesTypeConfigurations.Concrete
     {
         public override void Configure(EntityTypeBuilder<Kategori> builder)
         {
-            builder.Property(p=>p.KategoriAdi).HasMaxLength(30);
             base.Configure(builder);
+            builder.Property(p=>p.KategoriAdi).HasMaxLength(50);
+            builder.Property(p => p.Aciklama).HasMaxLength(100);
+
+            //ayni kategori isminden bir tane daha olmasin
+
+            builder.HasIndex(p => p.KategoriAdi).IsUnique();
+          
         }
     }
 }

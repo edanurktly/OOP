@@ -13,8 +13,11 @@ namespace EfCoreSinema.EntitesTypeConfigurations.Concrete
     {
         public override void Configure(EntityTypeBuilder<Seans> builder)
         {
-            builder.Property(p => p.Saat);
+         
             base.Configure(builder);
+
+            builder.Property(p => p.SeansAdi)
+                .HasMaxLength(50);
         }
     }
 }

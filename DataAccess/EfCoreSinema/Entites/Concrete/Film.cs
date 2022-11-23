@@ -9,12 +9,14 @@ namespace EfCoreSinema.Entites.Concrete
 {
     public class Film:BaseEntity<Guid>
     {
-        public int Id { get; set; }
+       
         public string FilmAdi { get; set; }
-        public string Tanimlama { get; set; }
-        public DateTime Sure { get; set; }
+        public string? Aciklama { get; set; }
+        public short? FilmSuresi { get; set; }
 
-        public ICollection<Kategori> Kategoriler { get; set; }
+        public ICollection<Kategori>? Kategoriler { get; set; }
+
+        public ICollection<Gosterim>? Gösterimler { get; set; }
 
     }
 }

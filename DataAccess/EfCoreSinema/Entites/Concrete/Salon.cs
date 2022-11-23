@@ -9,9 +9,9 @@ namespace EfCoreSinema.Entites.Concrete
 {
     public class Salon:BaseEntity<Guid>
     {
-        public int Id { get; set; }
+       
         public string SalonAdi { get; set; }
-        public int Kapasite { get; set; }
-
+        public byte? Kapasite { get; set; } = 0;
+        public ICollection<Gosterim>? Gösterimler { get; set; }
     }
 }
