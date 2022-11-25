@@ -31,11 +31,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EfCoreQuery", "EfCoreQuery\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EfCore_RelatedData", "EfCore_RelatedData\EfCore_RelatedData.csproj", "{2B8A07F2-1FAA-45DE-8231-5FAF817F353F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfCore_ExplicitLoading", "EfCore_ExplicitLoading\EfCore_ExplicitLoading.csproj", "{20EA1BB2-B883-4453-9FFF-CE5AA97A3ABB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EfCore_ExplicitLoading", "EfCore_ExplicitLoading\EfCore_ExplicitLoading.csproj", "{20EA1BB2-B883-4453-9FFF-CE5AA97A3ABB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfCore_LazyLoading", "EfCore_LazyLoading\EfCore_LazyLoading.csproj", "{E0168A43-4ECE-4249-862A-98B40D83C0AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EfCore_LazyLoading", "EfCore_LazyLoading\EfCore_LazyLoading.csproj", "{E0168A43-4ECE-4249-862A-98B40D83C0AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfCore_Lab", "EfCore_Lab\EfCore_Lab.csproj", "{A11912C5-B71E-493A-A96A-CFDB8EFE1FB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EfCore_Lab", "EfCore_Lab\EfCore_Lab.csproj", "{A11912C5-B71E-493A-A96A-CFDB8EFE1FB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfCore_RelatedDataSave", "EfCore_RelatedDataSave\EfCore_RelatedDataSave.csproj", "{6E6DEFFC-642C-426D-BC88-4534BD76EC52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{A11912C5-B71E-493A-A96A-CFDB8EFE1FB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A11912C5-B71E-493A-A96A-CFDB8EFE1FB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A11912C5-B71E-493A-A96A-CFDB8EFE1FB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E6DEFFC-642C-426D-BC88-4534BD76EC52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E6DEFFC-642C-426D-BC88-4534BD76EC52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E6DEFFC-642C-426D-BC88-4534BD76EC52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E6DEFFC-642C-426D-BC88-4534BD76EC52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
